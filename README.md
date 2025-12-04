@@ -11,15 +11,15 @@ In this project we used Jupyter Notebook to pull API data about crypto currencie
   - seaborn
 
 ## Programming steps
-- Import libraries
-- Make automated API pull function
+- Imported libraries
+- Made automated API pull function
   - Setup connection to coinmarketcap API
   - Showed all requested rows and columns
   - Created a dataframe from the API json data
   - Created a date column in the end of the dataframe with the current time
   - Combined functionality into an API pull function and wrote the dataframe to a csv file
   - Ran the API pull function intermittently
-- Use pulled data
+- Used pulled data
   - Showed csv file as a dataframe
   - Showed the first 5 decimals of each value
   - Grouped each crypto currency together and limit columns to percent change in USD
